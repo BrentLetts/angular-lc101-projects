@@ -1,0 +1,23 @@
+h3{
+    /* border-bottom: 1px solid plum; */
+    text-decoration: underline;
+}
+
+ul li{
+    /* counter-increment: list; */
+    list-style-type: none;
+    font-size: 1.25em;
+    color: plum;
+    font-style: italic;
+}
+
+ul li::before{
+    background-color: black;
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    margin-right: 1em;;
+    margin-bottom: .2em;
+    height: .5em;
+    width: .5em;
+}

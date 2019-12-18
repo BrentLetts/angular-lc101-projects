@@ -1,0 +1,18 @@
+.movies ol li{
+    counter-increment: list;
+    list-style-type: none;
+    color: red;
+    font-size: 1.25em;
+    position: relative;
+}
+
+.movies ol li::before{
+    color: black;
+    content: counter(list) ".";
+    left: -1em;
+    position: absolute;
+    text-align: right;
+}
+
+
+
