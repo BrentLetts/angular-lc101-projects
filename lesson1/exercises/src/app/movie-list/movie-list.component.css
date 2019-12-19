@@ -1,4 +1,4 @@
-.movies ol li{
+/* .movies ol li{
     counter-increment: list;
     list-style-type: none;
     color: red;
@@ -12,7 +12,19 @@
     left: -1em;
     position: absolute;
     text-align: right;
+} */
+
+.movies{
+    color: red;
+    /* font-size: 1.15em; */
 }
 
+h3{
+    text-align: center;
+}
+
+ol{
+    font-size: 1.15em;
+}
 
 
