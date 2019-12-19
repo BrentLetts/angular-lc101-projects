@@ -2,8 +2,6 @@
     text-decoration: underline;
 }
 
-
-
 ul li::before{
     background-color: black;
     border-radius: 50%;
@@ -17,8 +15,8 @@ ul li::before{
 
 .chores{
     color: plum;
-    /* font-size: 1.15em; */
-    width: 150%;
+    /* width: 150%; */
+    font-size: 1.6vw;
 }
 
 h3{
@@ -28,5 +26,4 @@ h3{
 
 ul li{
     font-style: italic;
-    font-size: 1.15em;
 }

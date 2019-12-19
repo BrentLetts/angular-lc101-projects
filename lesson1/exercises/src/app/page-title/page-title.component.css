@@ -1,4 +1,14 @@
+.title{
+    text-align: center;
+}
+
 h1{
     text-align: center;
     text-decoration: underline;
+}
+
+img{
+    float: center;
+    width: 30%;
+    height: auto;
 }

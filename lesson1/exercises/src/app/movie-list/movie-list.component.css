@@ -1,4 +1,7 @@
-/* .movies ol li{
+/* THE COMMENTED OUT SECTION IS HOW TO MAKE THE ol LIST BLACK
+    WHILE HAVING RED TEXT
+
+.movies ol li{
     counter-increment: list;
     list-style-type: none;
     color: red;
@@ -17,14 +20,10 @@
 .movies{
     color: red;
     /* font-size: 1.15em; */
+    font-size: 1.5vw;
+    width: 150%;
 }
 
 h3{
     text-align: center;
 }
-
-ol{
-    font-size: 1.15em;
-}
-
-
