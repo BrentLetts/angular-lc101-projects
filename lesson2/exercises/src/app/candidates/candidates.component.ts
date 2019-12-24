@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'candidates',
@@ -24,9 +24,20 @@ export class CandidatesComponent implements OnInit {
   }
 
   // Code the addToCrew function here:
+  addCrew(candidate: object){
+    if(!this.crew.includes(candidate)){
+      this.crew.push(candidate);
+    }
+    return this.crew;
+  }
 
 
   // BONUS: Code the changeMissionName function here:
-
+  changeMissionName(newName: string){
+  if(newName !== ""){
+    this.missionName = newName;
+  }
+  return newName;
+}
 
 }
